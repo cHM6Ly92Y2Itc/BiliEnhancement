@@ -87,7 +87,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/BiliRoamingX/BiliRoamingX")
+            url = uri("https://maven.pkg.github.com/cHM6Ly92Y2Itc/BiliEnhancement")
             credentials {
                 username = project.findProperty("gpr.user") as String?
                     ?: System.getenv("GITHUB_ACTOR")
@@ -102,8 +102,8 @@ publishing {
             from(components["java"])
 
             pom {
-                name = "BiliRoamingX Patches"
-                description = "Patches for BiliRoamingX."
+                name = "BiliEnhancement Patches"
+                description = "Patches for BiliEnhancement."
 
                 licenses {
                     license {
@@ -113,14 +113,14 @@ publishing {
                 }
                 developers {
                     developer {
-                        id = "zjns"
-                        name = "Kofua"
+                        id = "null"
+                        name = "null"
                     }
                 }
                 scm {
-                    connection = "scm:git:git://github.com/BiliRoamingX/BiliRoamingX.git"
-                    developerConnection = "scm:git:git@github.com:BiliRoamingX/BiliRoamingX.git"
-                    url = "https://github.com/BiliRoamingX/BiliRoamingX"
+                    connection = "scm:git:git://github.com/cHM6Ly92Y2Itc/BiliEnhancement.git"
+                    developerConnection = "scm:git:git@github.com:cHM6Ly92Y2Itc/BiliEnhancement.git"
+                    url = "https://github.com/cHM6Ly92Y2Itc/BiliEnhancement"
                 }
             }
         }
